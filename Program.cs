@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Section2.App();
-                       
+            // Start of program
+            Section2.App();                       
         }
     }
 }

@@ -9,5 +9,6 @@ namespace CSharpTraining
 {
     class Section3
     {
+        // Comment
     }
 }

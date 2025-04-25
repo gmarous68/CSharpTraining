@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             // Start of program
-            Section2.App();                       
+            Section3.App();                       
         }
     }
 }

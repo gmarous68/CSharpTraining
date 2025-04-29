@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             // Start of program
-            Section6.MyList();
-            Section6.MyLambda();
+            Section6.Product();
+
 
             Console.ReadKey();
         }

@@ -4,13 +4,10 @@
     {
         static void Main(string[] args)
         {
-            // Start of program
+            // Start of test program
             Section6.Dict();
 
-
             Console.ReadKey();
-        }
-
-        
+        }        
     }
 }

@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             // Start of test program
-            Section6.Dict();
+            Section7.divideByZero();
 
             Console.ReadKey();
         }        

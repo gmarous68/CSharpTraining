@@ -25,6 +25,22 @@ namespace CSharpTraining
     {
         public static void Dict()
         {
+            var codes = new Dictionary<string, string>() {
+                ["NY"] = "New York",
+                ["IL"] = "Illinois",
+                ["TX"] = "Texas",
+                ["CA"] = "California",
+                ["MI"] = "Michigan"
+            };
+
+            if(codes.TryGetValue("NY", out string nyState))
+                Console.WriteLine($"State NY is " + nyState);
+            Console.WriteLine("***********************");
+
+            foreach (var state in codes)
+                Console.WriteLine($"State {state.Key} is {state.Value}.");
+            Console.WriteLine("***********************");
+
             Dictionary<int, string> empl = new Dictionary<int, string>();
             empl.Add(101, "John Doe");
             empl.Add(102, "Bob Smith");

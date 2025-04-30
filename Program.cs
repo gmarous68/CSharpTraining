@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             // Start of program
-            Section6.Product();
+            Section6.Dict();
 
 
             Console.ReadKey();

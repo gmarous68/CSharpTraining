@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Section7.divideByZero();
+            Section8.App();
 
             Console.ReadKey();
         }        

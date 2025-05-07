@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Section21.App();
+            App.FizzB();
             Console.ReadKey();
         }        
     }

@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace CSharpTraining
 {
-    internal class Section9
+    public interface IAnimal
     {
+        public void MakeSound();
+        public void Eat(string food);  
+    }
+
+    internal class Section9 : IAnimal
+    {
+        public void Eat(string food)
+        {
+            Console.WriteLine($"Dog is eating {food}!");
+        }
+
+        public void MakeSound()
+        {
+            Console.WriteLine("Dog is barking!");
+        }
     }
 }

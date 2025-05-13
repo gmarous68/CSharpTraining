@@ -22,6 +22,19 @@ namespace CSharpTraining
                 else
                     Console.WriteLine(i);    
             }
-        }   
+        }
+
+        public static void Reverse()
+        {
+            Console.WriteLine("**********************");
+            Console.WriteLine("Type in a string: ");
+            string text = Console.ReadLine();
+
+            char[] charArray = text.ToCharArray();
+            Array.Reverse(charArray);
+            foreach(char c in charArray) { 
+                Console.Write(c); 
+            }
+        }
     }
 }
